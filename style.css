@@ -1,0 +1,191 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('Roboto-Regular.ttf') format('TrueType');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'CustomFont', sans-serif;
+}
+
+body{
+    color: white;
+
+}
+.whole{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+
+
+ }
+
+.first-color{
+    background-color: #1f2937;
+    width: 100vw;
+    align-self: center;
+}
+
+
+.nav{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white
+}
+
+ul{
+    display: flex;
+    gap: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+h1{
+    font-size: 1.5rem;
+}
+
+.hero{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px 10%;
+
+
+}
+
+.hero h1{
+    font-size: 40px;
+}
+
+.hero p{
+    margin-bottom: 20px;
+}
+
+.hero .text-part a{
+    color:white;
+    background-color: #3882f6;
+    padding: 7px 30px;
+    border-radius: 8px;
+
+
+}
+
+.text-part{
+    width: 450px;
+}
+
+
+img.first{
+    width: 400px;
+    height: auto;
+}
+
+.images-part h1{
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.images-part{
+    text-align: center;
+}
+.images-part h1{
+    margin-bottom: 50px;
+}
+
+.four-images{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    color: #1f2937;
+    gap: 100px;
+    align-items: center;
+    margin: 100px;
+}
+
+.four-images p{
+    max-width: 150px;
+    margin-left: 20px;
+}
+
+.four-images img{
+    width: 200px;
+    height: auto;
+
+}
+
+.quote{
+    padding: 100px 0;
+    width: 100vw;
+    height: 400px;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    margin-bottom: 100px;
+}
+
+.quote p {
+    font-style: italic;
+    font-weight: 100;
+    padding: 0 25%;
+    margin-bottom: 20px;
+    display: flex;
+text-align: center;
+    font-size: 1.8rem;
+}
+
+.quote h1{
+    text-align: center;
+    padding-left: 700px;
+}
+
+.like-up{
+    align-items: center;
+    justify-content: center;
+    background-color: #3882f6;
+    display: flex;
+    padding: 30px 80px;
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+
+.action{
+    padding-right: 60px;
+}
+
+.action h1{
+    font-size: 1.2rem;
+}
+
+.action p{
+    font-size: 0.9rem;
+}
+
+.like-up a{
+    border: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #1f2937;  
+}
+
+
